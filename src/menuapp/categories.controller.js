@@ -1,15 +1,1 @@
-(function () {
-'use strict';
-
-angular.module('menuapp')
-.controller('CategorieslistController', CategorieslistController);
-
-
-CategorieslistController.$inject = ['MenuDataService','categories'];
-function CategorieslistController(MenuDataService,categories) {
-  var Clist = this;
-  Clist.catarry = categories;
-
-}
-
-})();
+!function(){"use strict";function e(e,t){var r=this;r.catarry=t}angular.module("menuapp").controller("CategorieslistController",e),e.$inject=["MenuDataService","categories"]}();

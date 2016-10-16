@@ -1,14 +1,1 @@
-(function () {
-'use strict';
-
-angular.module('menuapp')
-.controller('ItemDetailController', ItemDetailController);
-
-
-ItemDetailController.$inject = ['MenuDataService','catitems'];
-function ItemDetailController(MenuDataService,catitems) {
-  var list1 = this;
- list1.items = catitems.data.menu_items; 
-}
-
-})();
+!function(){"use strict";function t(t,e){var n=this;n.items=e.data.menu_items}angular.module("menuapp").controller("ItemDetailController",t),t.$inject=["MenuDataService","catitems"]}();
