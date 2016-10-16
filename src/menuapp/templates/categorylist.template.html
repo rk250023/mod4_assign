@@ -1,0 +1,4 @@
+<ul>
+  <li ng-repeat="item in $ctrl.catarry.data" 
+  ui-sref="categoryList.itemDetail({shortName:item.short_name})">{{ item.name }}</li>
+</ul>
